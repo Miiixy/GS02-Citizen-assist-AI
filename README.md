@@ -14,7 +14,7 @@
 ### Integrantes
 
 | Integrante | RM |
-|---|---|
+|---|---:|
 | Giulliana Maistro Brasolin | 569381 |
 | Lara Dos Santos Cândido Alves | 573827 |
 | Mikaella Mirela Dos Santos Lucindo | 573775 |
@@ -79,6 +79,8 @@ As funcionalidades disponíveis são:
 | 6 | Consulta às fontes e limitações |
 | 7 | Orientações para dúvidas |
 | 0 | Encerramento do atendimento |
+
+A opção 7 foi incorporada como uma funcionalidade complementar, oferecendo orientações para usuários que tenham dúvidas sobre a solução.
 
 O assistente utiliza os resultados calculados nas etapas anteriores para apresentar informações e recomendações relacionadas ao cenário residencial analisado.
 
@@ -195,7 +197,8 @@ O projeto foi desenvolvido em um notebook Python (`.ipynb`), utilizando o ambien
 
 **Acesso ao notebook:**
 
-[Citizen Assist AI — Notebook no GitHub](https://github.com/Miiixy/GS-02-CITIZEN-ASSIST-AI/blob/main/Citizen_Assist_AI_Energia_Sustentavel.ipynb)
+- [Visualizar notebook no GitHub](https://github.com/Miiixy/GS02-Citizen-assist-AI/blob/main/Citizen_Assist_AI_SERS.ipynb)
+- [Abrir notebook diretamente no Google Colab](https://colab.research.google.com/github/Miiixy/GS02-Citizen-assist-AI/blob/main/Citizen_Assist_AI_SERS.ipynb)
 
 Para executar:
 
@@ -210,17 +213,21 @@ As bibliotecas Pandas e Matplotlib são utilizadas nas análises. Caso não este
 
 ## 9. Testes e validação com usuários
 
-Foram realizados testes funcionais para verificar o comportamento do protótipo diante de diferentes entradas e opções selecionadas.
+### 9.1. Testes funcionais iniciais
 
-Os testes contemplaram consultas às funcionalidades, verificação das respostas esperadas e identificação de entradas inválidas.
+Foram definidos testes funcionais para verificar o comportamento do protótipo diante de diferentes opções selecionadas.
 
-**Resultados dos testes funcionais:**
+Os testes verificaram se o sistema apresentava as identificações esperadas para cada funcionalidade e se reconhecia entradas inválidas.
+
+Na primeira execução, foram realizados oito casos de teste:
 
 | Indicador | Resultado |
 |---|---:|
 | Testes executados | 8 |
 | Testes aprovados | 8 |
 | Testes reprovados | 0 |
+
+### 9.2. Testes de usabilidade
 
 Também foram realizados testes de usabilidade com três participantes, identificados como P1, P2 e P3.
 
@@ -235,12 +242,29 @@ Durante a avaliação, foram identificadas duas sugestões de melhoria:
 
 Com base nas sugestões, foram realizados os seguintes ajustes:
 
-- Inclusão da opção 7, com orientações para dúvidas e indicação de canais de atendimento.
 - Inclusão de explicações sobre os conceitos de kWh, kWp e payback nas respostas do assistente.
+- Posterior inclusão da opção 7, com orientações para dúvidas e indicação de canais de atendimento.
 
 O terceiro participante não identificou dificuldades nem sugeriu alterações adicionais.
 
 Devido ao número reduzido de participantes, os resultados indicam apenas uma avaliação inicial de usabilidade e não podem ser generalizados para todos os usuários.
+
+### 9.3. Teste funcional complementar — Opção 7 (Dúvidas)
+
+Após os testes de usabilidade, foi implementada a opção 7 no menu do Citizen Assist AI, com o objetivo de oferecer orientações adicionais aos usuários que possuem dúvidas sobre o funcionamento da solução.
+
+Como essa funcionalidade foi desenvolvida posteriormente, a bateria de testes funcionais foi atualizada para incluir sua verificação.
+
+O teste complementar consiste em:
+
+- Incluir a opção 7 entre os casos de teste.
+- Enviar a entrada correspondente à função `orientar_usuario()`.
+- Verificar se a resposta contém a identificação esperada da opção Dúvidas.
+- Classificar automaticamente o resultado como aprovado ou reprovado.
+
+Com a atualização, a bateria passou de oito para nove casos de teste funcionais. A execução atualizada e seus resultados estão apresentados no notebook.
+
+Esse procedimento complementa os testes funcionais iniciais e não representa uma nova avaliação de usabilidade com participantes.
 
 ## 10. Limitações da solução
 
@@ -261,52 +285,52 @@ Portanto, os valores apresentados devem ser interpretados como estimativas para 
 
 ## 11. Referências
 
-**SEMIL — Secretaria de Meio Ambiente, Infraestrutura e Logística do Estado de São Paulo.** Anuário de Energéticos por Municípios do Estado de São Paulo 2025 (ano-base 2024). 2. ed. São Paulo: SEMIL, 2025.
+SEMIL — Secretaria de Meio Ambiente, Infraestrutura e Logística do Estado de São Paulo. Anuário de Energéticos por Municípios do Estado de São Paulo 2025 (ano-base 2024). 2. ed. São Paulo: SEMIL, 2025.
 
-[Consultar publicação](https://smastr16.blob.core.windows.net/home/2026/03/Anuario-de-Energeticos-por-Municipios-do-Estado-de-Sao-Paulo-2025-ano-base-2024-1.pdf)
+[Consultar publicação](https://smastr16.blob.core.windows.net/)
 
-**ANEEL — Agência Nacional de Energia Elétrica.** Resolução Homologatória nº 3.339, de 2 de julho de 2024. Enel SP.
+ANEEL — Agência Nacional de Energia Elétrica. Resolução Homologatória nº 3.339, de 2 de julho de 2024. Enel SP.
 
-[Consultar resolução](https://www2.aneel.gov.br/cedoc/reh20243339.pdf)
+[Consultar resolução](https://www2.aneel.gov.br/)
 
-**MME — Ministério de Minas e Energia.** Informativo Tarifário do Setor Elétrico, ano 2024.
+MME — Ministério de Minas e Energia. Informativo Tarifário do Setor Elétrico, ano 2024.
 
-[Consultar publicação](https://www.gov.br/mme/pt-br/assuntos/secretarias/secretaria-nacional-energia-eletrica/informativo-tarifario-do-setor-eletrico/informativo-tarifario-do-setor-eletrico-ano-2024.pdf)
+[Consultar publicação](https://www.gov.br/mme/)
 
-**CALCULAKWH.** O que é kWp e como funciona o dimensionamento solar.
+CALCULAKWH. O que é kWp e como funciona o dimensionamento solar.
 
-[Consultar material](https://calculakwh.com.br/artigos/kwp-o-que-e/)
+[Consultar material](https://calculakwh.com.br/)
 
-**SOLARMAPPED / PVGIS.** Solar Potential in São Paulo.
+SOLARMAPPED / PVGIS. Solar Potential in São Paulo.
 
-[Consultar dados](https://solarmapped.com/brazil/sao-paulo)
+[Consultar dados](https://solarmapped.com/)
 
-**COMISSÃO EUROPEIA — Joint Research Centre (JRC).** PVGIS 5 User Manual.
+COMISSÃO EUROPEIA — Joint Research Centre (JRC). PVGIS 5 User Manual.
 
-[Consultar documentação](https://joint-research-centre.ec.europa.eu/photovoltaic-geographical-information-system-pvgis/using-pvgis-5/pvgis-5-user-manual_en)
+[Consultar documentação](https://joint-research-centre.ec.europa.eu/)
 
-**SOLFÁCIL / EIXOS.** Custo da energia solar residencial caiu 5% no terceiro trimestre de 2024.
+SOLFÁCIL / EIXOS. Custo da energia solar residencial caiu 5% no terceiro trimestre de 2024.
 
-[Consultar publicação](https://eixos.com.br/solar/custo-da-energia-solar-residencial-caiu-5-no-terceiro-trimestre-de-2024)
+[Consultar publicação](https://eixos.com.br/)
 
-**BRASIL.** Lei nº 14.300, de 6 de janeiro de 2022. Marco Legal da Microgeração e Minigeração Distribuída.
+BRASIL. Lei nº 14.300, de 6 de janeiro de 2022. Marco Legal da Microgeração e Minigeração Distribuída.
 
-[Consultar legislação](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/l14300.htm)
+[Consultar legislação](https://www.planalto.gov.br/)
 
-**MCTI — Ministério da Ciência, Tecnologia e Inovação.** Fatores de Emissão de Gases de Efeito Estufa.
+MCTI — Ministério da Ciência, Tecnologia e Inovação. Fatores de Emissão de Gases de Efeito Estufa.
 
-[Consultar dados](https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/sirene/dados-e-ferramentas/fatores-de-emissao)
+[Consultar dados](https://www.gov.br/mcti/)
 
-**SÃO PAULO — Compras Públicas.** Preço de referência de lâmpada LED de 9 W: R$ 3,23 por unidade, conforme premissas e registros de compras públicas utilizados pelo grupo.
+SÃO PAULO — Compras Públicas. Preço de referência de lâmpada LED de 9 W: R$ 3,23 por unidade, conforme premissas e registros de compras públicas utilizados pelo grupo.
 
 Os preços de varejo das lâmpadas LED e demais valores estimados foram adotados como premissas do grupo, sem fonte documental específica.
 
 ## Vídeo
 
-Link:
+Link: 
 
 ---
 
 **GLOBAL SOLUTION 02 — 2026**
 
-**Citizen Assist AI — Energia Inteligente: Economia e Sustentabilidade nas Residências.**
+Citizen Assist AI — Energia Inteligente: Economia e Sustentabilidade nas Residências.
