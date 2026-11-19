@@ -291,23 +291,23 @@ SEMIL — Secretaria de Meio Ambiente, Infraestrutura e Logística do Estado de 
 
 ANEEL — Agência Nacional de Energia Elétrica. Resolução Homologatória nº 3.339, de 2 de julho de 2024. Enel SP.
 
-[Consultar resolução]([https://www2.aneel.gov.br/](https://www2.aneel.gov.br/cedoc/reh20243339.pdf))
+[Consultar resolução](https://www2.aneel.gov.br/cedoc/reh20243339.pdf)
 
 MME — Ministério de Minas e Energia. Informativo Tarifário do Setor Elétrico, ano 2024.
 
-[Consultar publicação]([https://www.gov.br/mme/](https://www.gov.br/mme/pt-br/assuntos/secretarias/secretaria-nacional-energia-eletrica/informativo-tarifario-do-setor-eletrico/informativo-tarifario-do-setor-eletrico-ano-2024.pdf))
+[Consultar publicação](https://www.gov.br/mme/pt-br/assuntos/secretarias/secretaria-nacional-energia-eletrica/informativo-tarifario-do-setor-eletrico/informativo-tarifario-do-setor-eletrico-ano-2024.pdf)
 
 CALCULAKWH. O que é kWp e como funciona o dimensionamento solar.
 
-[Consultar material]([https://calculakwh.com.br/](https://calculakwh.com.br/artigos/kwp-o-que-e/))
+[Consultar material](https://calculakwh.com.br/artigos/kwp-o-que-e/)
 
 SOLARMAPPED / PVGIS. Solar Potential in São Paulo.
 
-[Consultar dados]([https://solarmapped.com/](https://solarmapped.com/brazil/sao-paulo))
+[Consultar dados](https://solarmapped.com/brazil/sao-paulo)
 
 COMISSÃO EUROPEIA — Joint Research Centre (JRC). PVGIS 5 User Manual.
 
-[Consultar documentação]([https://joint-research-centre.ec.europa.eu/](https://joint-research-centre.ec.europa.eu/photovoltaic-geographical-information-system-pvgis/using-pvgis-5/pvgis-5-user-manual_en))
+[Consultar documentação](https://joint-research-centre.ec.europa.eu/photovoltaic-geographical-information-system-pvgis/using-pvgis-5/pvgis-5-user-manual_en)
 
 SOLFÁCIL / EIXOS. Custo da energia solar residencial caiu 5% no terceiro trimestre de 2024.
 
@@ -315,11 +315,11 @@ SOLFÁCIL / EIXOS. Custo da energia solar residencial caiu 5% no terceiro trimes
 
 BRASIL. Lei nº 14.300, de 6 de janeiro de 2022. Marco Legal da Microgeração e Minigeração Distribuída.
 
-[Consultar legislação]([https://www.planalto.gov.br/](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/l14300.htm))
+[Consultar legislação](https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2022/lei/l14300.htm)
 
 MCTI — Ministério da Ciência, Tecnologia e Inovação. Fatores de Emissão de Gases de Efeito Estufa.
 
-[Consultar dados]( https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/sirene/dados-e-ferramentas/fatores-de-emissao)
+[Consultar dados](https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/sirene/dados-e-ferramentas/fatores-de-emissao)
 
 SÃO PAULO — Compras Públicas. Preço de referência de lâmpada LED de 9 W: R$ 3,23 por unidade, conforme premissas e registros de compras públicas utilizados pelo grupo.
 
