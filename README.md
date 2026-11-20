@@ -327,7 +327,7 @@ Os preços de varejo das lâmpadas LED e demais valores estimados foram adotados
 
 ## Vídeo
 
-Link: 
+Link: https://youtu.be/--8AuAXv5kc
 
 ---
 
